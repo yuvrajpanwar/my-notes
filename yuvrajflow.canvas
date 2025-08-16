@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"f13475465671cc99","x":-40,"y":-180,"width":250,"height":60,"type":"text","text":"singh"},
+		{"id":"e456d65756da97e8","x":-380,"y":-180,"width":250,"height":60,"type":"text","text":"yuvraj "},
+		{"id":"90d5f6fcd1888191","x":-200,"y":0,"width":250,"height":60,"type":"text","text":"panwar"},
+		{"id":"3ec496245321d361","x":-200,"y":180,"width":250,"height":60,"type":"text","text":"27 -11 2000"}
+	],
+	"edges":[
+		{"id":"341b3df0a01f5a2b","fromNode":"e456d65756da97e8","fromSide":"right","toNode":"f13475465671cc99","toSide":"left"},
+		{"id":"827c0cbd74201f02","fromNode":"e456d65756da97e8","fromSide":"bottom","toNode":"90d5f6fcd1888191","toSide":"top"},
+		{"id":"9ad1f92478f54c0b","fromNode":"f13475465671cc99","fromSide":"bottom","toNode":"90d5f6fcd1888191","toSide":"top"},
+		{"id":"72d9a359c9ac6bfc","fromNode":"90d5f6fcd1888191","fromSide":"bottom","toNode":"3ec496245321d361","toSide":"top"},
+		{"id":"7f55e62cd12a734f","fromNode":"3ec496245321d361","fromSide":"right","toNode":"f13475465671cc99","toSide":"right"},
+		{"id":"33f6ad82898179bf","fromNode":"3ec496245321d361","fromSide":"left","toNode":"e456d65756da97e8","toSide":"left"}
+	]
+}
