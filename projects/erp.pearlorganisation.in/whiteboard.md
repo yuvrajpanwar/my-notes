@@ -10,6 +10,8 @@
 -[x] notes create | notes assign 
 -[x] task QC logs { tasks that are created or assign for QC to department users } 
 
+-[x] task QC logs {QC status of tasks that are created or assign for QC to manager's department users } 
+
 
 # crm department                id=9
 -[x] project assign 
@@ -53,3 +55,29 @@
 -[x] tickets : create | reply | resolved
 
 
+
+# Renewal Department     id=23
+-[x] pending emi assign
+-[x] renewal payments assign 
+-[x] split payment created and paid
+
+
+# it & admin dept.          id=14
+-[x] mobile / laptop / tablet  Assign 
+-[x] order receive : paid | accept | reject 
+-[x] inhouse tickets : create | assign 
+
+
+# HR Department                  id=11HrDept | 12HrFrontOffice | 13HrInterns
+-[x] candidate  created
+-[x] warning letter issued
+-[x] abscond letter issued 
+-[x] termination letter issued
+-[x] employee exit 
+-[x] attendance upload 
+-[x] employee payslip generated
+-[x] resignation ( Resigned | Resignation Accepted | Resignation Revoked )
+-[x] hr sessions 
+-[] experiance letter generate
+-[] offer letter generate 
+-[] join letter generate 
